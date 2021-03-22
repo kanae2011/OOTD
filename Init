@@ -52,11 +52,11 @@ public class Init extends HttpServlet {
 //	ex) Beans.putDAO("noticeDAO", new NoticeDAO());
 		
 		
-//	ex)	Beans.put("notice/list.do", new NoticeListService());
+//	ex)Beans.putService("notice/list.do", new NoticeListService());
 		
 		
 		
-//	ex) Beans.get("notice/list.do").setDAO(Beans.getDAO("noticeDAO"));
+//	ex) Beans.getService("notice/list.do").setDAO(Beans.getDAO("noticeDAO"));
 		
 		
 		//저장이 잘되어 있는지 출력
